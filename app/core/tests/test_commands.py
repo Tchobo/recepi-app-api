@@ -2,10 +2,10 @@
 Test ciustom Django managements commands
 """
 from unittest.mock import patch
-from pscycopg2 import OperationalError as Pscycopg2Error
+from psycopg2 import OperationalError as Psycopg2Error
 
 from django.core.management import call_command
-from django.db.utils import OperationnalError
+from django.db.utils import OperationalError
 from django.test import SimpleTestCase
 
 
